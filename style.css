@@ -1,0 +1,110 @@
+html{
+	margin: 0px 10px 0px 0px ;
+}
+
+.right-top ul li{
+	float: right;
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	margin-top: 10px;
+	font: 400 13.5px Arial;
+
+}
+
+
+
+
+a:hover,a:active {
+	text-decoration: underline;
+}
+
+
+.main{
+	display: block;
+	margin: 0;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.button {
+	float: bottom;
+	display: block;
+	position: absolute;
+	top: 68%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	
+
+
+}
+
+
+
+#box{
+ 	height: 30px;
+ 	width: 700px;
+ 	font-size: 20px;
+ 	position: absolute;
+	top: 60%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid #2F77F5;
+ 	
+ 	
+ }
+ 
+ 
+
+*{
+	text-decoration: none;
+	color: black;
+
+
+
+	
+}
+
+.bottom {
+	position: absolute;
+	bottom: 0;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 99%;	
+	display: inline-block;
+	font: 400 13px Arial;
+
+}
+
+
+.left li{
+	display: inline-block;
+	margin-left:10px ;
+
+}
+
+.right li{
+	display: inline;
+	float: left;
+	margin-right:10px ;
+}
+
+.left{
+	float: left;
+	list-style-type: none;
+}
+
+.right{
+	float: right;
+	list-style-type: none;
+	
+
+}
+
